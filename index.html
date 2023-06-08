@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculadora Descodificadas</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>Calculadora Simples</h1>
+      <div>
+        <label for="number1">Número 1:</label>
+        <input
+          id="number1"
+          type="number"
+          placeholder="Insira um número"
+          required
+        />
+      </div>
+
+      <div>
+        <label for="number2">Número 2:</label>
+        <input
+          id="number2"
+          type="number"
+          placeholder="Insira um número"
+          required
+        />
+      </div>
+
+      <button onclick="calculate()">Calcular</button>
+
+      <div id="result">
+        <h3>Resultados:</h3>
+        <p id="sum"></p>
+        <p id="subtraction"></p>
+        <p id="multiplication"></p>
+        <p id="division"></p>
+        <p id="rest-division"></p>
+        <p id="comparison"></p>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
